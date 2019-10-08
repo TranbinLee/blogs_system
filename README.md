@@ -1,2 +1,2 @@
 # blogs_system
-Myself Blog Project 
+Blogs System  Project 
