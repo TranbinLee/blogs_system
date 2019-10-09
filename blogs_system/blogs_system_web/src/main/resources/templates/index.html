@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>myWebSite</title>
+    <link rel="stylesheet" href="../static/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/lib/fontawesome/css/font-awesome.min.css">
+<style>
+    .myheader {
+
+        /*background: url(img/tree.jpg);*/
+        background-size: myheader ;
+        background-color: #5a6268;
+    }
+    .index{color:#fefefe;
+    }
+    a {text-decoration: none}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="myheader  text-center py-2" >
+<!--            <h1 class="display-3 mb-3">首页</h1>-->
+<!--            <nav class="navbar navbar-expand-sm text-center navbar-dark">-->
+<!--                <ul class="navbar-nav text-center">-->
+<!--                    <li class="nav-item active">-->
+<!--                        <a class="nav-link" href="#"><img src="img/BlogsCode.jpg"></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#"><span style="color: white "> 首页</span></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#"><span style="color: white "> 我的博文</span></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#"><span style="color: white "> 我的博文</span></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#"><span style="color: white "> 我的博文</span></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#"><span style="color: white "> 我的博文</span></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="#"><span style="color: white "> 我的博文</span></a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+            <a href="#" target="_self"  style="text-decoration: none" ><img src="../static/img/BlogsCode.jpg"></a>
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white "> 首页    </span>  </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white "> 我的博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" ><span style="color: white "> 热门博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none"  ><span style="color: white ">我的博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" ><span style="color: white "> 热门博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white "> 我的博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" ><span style="color: white "> 热门博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white "> 我的博文 </span> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!--            <span style="color: white ">发现&nbsp;&nbsp;</span><input type="text" class="rounded" name="搜索" placeholder="请输入搜索内容" />&nbsp;&nbsp;-->
+            <form class="form-check-inline">
+                <input class="form-control" type="text" placeholder="Search">
+                <button class="btn btn-info" type="button"><i class="icon-search"></i></button>
+            </form>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" > <button class="btn btn-success"><span style="color: white "> 登录/注册 </span> </button></a>
+        </div>
+    </header>
+    <main>
+        <section class="py-2">
+            <div class="container ">
+                <div class="mb-2 row " style="border: 1px solid  forestgreen;" >
+                    <div class="col-md-8">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                            <!-- 指示符 -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+
+                            <!-- 轮播图片 -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg"  class="w-100 h-100">
+                                    <div class="carousel-caption">
+                                        <h3>当幸福来敲门</h3>
+                                        <p>幸福是奋斗出来的</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg" class="w-100 h-100">
+                                    <div class="carousel-caption">
+                                        <h3>当幸福来敲门</h3>
+                                        <p>幸福是奋斗出来的</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg" class="w-100 h-100">
+                                    <div class="carousel-caption">
+                                        <h3>当幸福来敲门</h3>
+                                        <p>幸福是奋斗出来的</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 左右切换按钮 -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+<!--                        <img src="img/header.jpg" class="w-100 h-100">-->
+                    </div>
+
+
+                    <div class="col-md-4 ">
+                        <div class="mb-2 row">
+                            <div id="d" class="carousel slide" data-ride="carousel">
+
+                                <!-- 轮播图片 -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg" class="w-100 h-100">
+                                        <div class="carousel-caption">
+                                            <h3>当幸福来敲门</h3>
+                                            <p>幸福是奋斗出来的</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg" class="w-100 h-100">
+                                        <div class="carousel-caption">
+                                            <h3>当幸福来敲门</h3>
+                                            <p>幸福是奋斗出来的</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg" class="w-100 h-100">
+                                        <div class="carousel-caption">
+                                            <h3>当幸福来敲门</h3>
+                                            <p>幸福是奋斗出来的</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+<!--                            <img src="img/header.jpg" class="w-100 h-100">-->
+                        </div>
+                        <div class="mb-2 row">
+                            <div id="de" class="carousel slide" data-ride="carousel">
+
+
+                                <!-- 轮播图片 -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg" class="w-100 h-100">
+                                        <div class="carousel-caption">
+                                            <h3>当幸福来敲门</h3>
+                                            <p>幸福是奋斗出来的</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg" class="w-100 h-100">
+                                        <div class="carousel-caption">
+                                            <h3>当幸福来敲门</h3>
+                                            <p>幸福是奋斗出来的</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg" class="w-100 h-100">
+                                        <div class="carousel-caption">
+                                            <h3>当幸福来敲门</h3>
+                                            <p>幸福是奋斗出来的</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+<!--                            <img src="img/header.jpg" class="w-100 h-100">-->
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="mb-3 row col-md-8" style="border: 1px solid  forestgreen;">
+                    <div class="col-md-9 order-md-2" >
+                        <h3>hahahaha1</h3>
+                        <p>随着分子生物技术的迅猛发展，DNA分子鉴定已广泛应用于生命科学的各个领域。
+                            DNA分子鉴定技术已越来越多地应用于中药的鉴别</p>
+                    </div>
+                    <div class="col-md-3 order-md-1" style="border: 1px solid  forestgreen;">
+                        <img src="../static/img/header.jpg" class="w-100 h-75">
+                    </div>
+                </div>
+
+                <div class="mb-3 row col-md-8" style="border: 1px solid  forestgreen;">
+                    <div class="col-md-3 order-md-1">
+                        <img src="../static/img/header.jpg" class="w-100 h-75">
+                    </div>
+                    <div class="col-md-9 order-md-2">
+                        <h3>hahahaha1</h3>
+                        <p>随着分子生物技术的迅猛发展，DNA分子鉴定已广泛应用于生命科学的各个领域。
+                            DNA分子鉴定技术已越来越多地应用于中药的鉴别</p>
+                    </div>
+                </div>
+                <div class="mb-3 row col-md-8" style="border: 1px solid  forestgreen;">
+                    <div class="col-md-9 order-md-2">
+                        <h3>hahahaha1</h3>
+                        <p>随着分子生物技术的迅猛发展，DNA分子鉴定已广泛应用于生命科学的各个领域。
+                            DNA分子鉴定技术已越来越多地应用于中药的鉴别</p>
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                        <img src="../static/img/header.jpg" class="w-100  h-75">
+                    </div>
+                </div>
+                <div class="mb-3 row col-md-8" style="border: 1px solid  forestgreen;">
+                    <div class="col-md-9 order-md-2">
+                        <h3>hahahaha1</h3>
+                        <p>随着分子生物技术的迅猛发展，DNA分子鉴定已广泛应用于生命科学的各个领域。
+                            DNA分子鉴定技术已越来越多地应用于中药的鉴别</p>
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                        <img src="../static/img/header.jpg" class="w-100  h-75">
+                    </div>
+                </div>
+                <div class="mb-3 row col-md-8">
+                    <div class="col-md-9 order-md-2">
+                        <h3>hahahaha1</h3>
+                        <p>随着分子生物技术的迅猛发展，DNA分子鉴定已广泛应用于生命科学的各个领域。
+                            DNA分子鉴定技术已越来越多地应用于中药的鉴别</p>
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                        <img src="../static/img/header.jpg" class="w-100  h-75">
+                    </div>
+                </div>
+                <div class="mb-3 row col-md-8">
+                    <div class="col-md-9 order-md-2">
+                        <h3>hahahaha1</h3>
+                        <p>随着分子生物技术的迅猛发展，DNA分子鉴定已广泛应用于生命科学的各个领域。
+                            DNA分子鉴定技术已越来越多地应用于中药的鉴别</p>
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                        <img src="../static/img/header.jpg" class="w-100  h-75">
+                    </div>
+                </div>
+                <div class="mb-3 row col-md-8">
+                    <div class="col-md-9 order-md-2">
+                        <h3>hahahaha1</h3>
+                        <p>随着分子生物技术的迅猛发展，DNA分子鉴定已广泛应用于生命科学的各个领域。
+                            DNA分子鉴定技术已越来越多地应用于中药的鉴别</p>
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                        <img src="../static/img/header.jpg" class="w-100  h-75">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="myheader  text-dark text-center py-3" >
+            <!--            <h1 class="display-3 mb-3">首页</h1>-->
+            <a href="#" target="_self"  style="text-decoration: none" ><img src="../static/img/BlogsCode.jpg"></a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white "> 首页</span> </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white "> 我的博文</span> </a>&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" ><span style="color: white ">  热门博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none"  ><span style="color: white ">  我的博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" ><span style="color: white ">  热门博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white ">  我的博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" ><span style="color: white ">  热门博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_self"  style="text-decoration: none" ><span style="color: white "> 我的博文 </span> </a>&nbsp;&nbsp;
+            <a href="#" target="_blank" style="text-decoration: none" ><span style="color: white ">  登录/注册 </span> </a>&nbsp;
+
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script  src="../static/lib/js/bootstrap.min.js"></script>
+</body>
+</html>
